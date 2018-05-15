@@ -1,0 +1,437 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+a
+{
+	text-decoration: none;
+}
+li
+{
+	list-style: none;
+}
+header
+{
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	border-bottom: 3px solid #fcac45;
+}
+.header_logo
+{
+	
+	color: #fff;	
+	font-weight: 800;
+	font-size: 100px;
+	cursor: pointer;
+	margin-left: 2%;
+
+}
+nav
+{
+	margin-top: 56px;
+	margin-left: 60%;
+}
+.topnav a
+{
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 14px;
+	font-weight: bold;
+
+
+}
+.topnav a:hover
+{
+	border-bottom: 3px solid #fcac45;
+}
+	.slogan
+	{
+		width: 100%
+		height: 500px;
+		background-color: #000;
+		padding-top: 100px;
+
+	}
+	.hub
+	{
+		color: #EA7319;
+	}
+	.slogan p
+	{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 35px;
+		text-align: center;
+		color: #fff;
+		padding-bottom: 100px;
+	//	border-bottom: 3px solid #fcac45;
+
+	}
+	.photo
+	{
+		width: 100%
+		height: 1000px;
+		padding-top: 500px;
+		padding-left: 245px;
+		padding-bottom: 150px;
+		background-color: #000;
+		border-bottom: 3px solid #fcac45;
+	}
+	.container-image_1 .cont 
+	{
+	border: 4px solid #000;
+	//border-color: #fff; // Есть / нет обводки
+	margin-left: 15px;
+	border-radius: 100%;
+	margin-right: 30px;
+	margin-bottom: 100px;
+	margin-top: -400px;
+	cursor: pointer;
+
+	width:300px;
+    height:280px;
+    
+ 
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 200ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 200ms;
+	}
+	.container-image_1 .cont:hover
+	{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 200ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 200ms;	
+	}
+	.container-image_2 .cont_2
+	{
+	border: 4px solid #fcac45;
+	padding: 14px;
+	background: #fff;
+	margin-left: 100px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+	margin-top: 14px;
+	cursor: pointer;
+
+	width:140px;
+    height:280px;
+    
+ 
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+	}
+	.container-image_2 .cont_2:hover
+	{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+    }	
+    .h-spirit
+    {
+    	width: 100%
+		height: 1000px;
+		padding-top: 500px;
+		padding-bottom: 200px;
+		background-color: #000;
+		border-bottom: 3px solid #fcac45;
+
+    }
+    .h-spirit .h-spirit-logo p
+    {
+    	margin-top: -410px;
+    	text-transform: uppercase;
+    	text-align: center;
+    	font-weight: bold;
+		font-size: 40px;
+		color: #fff; 
+    }
+    .h-spirit .h-spirit-werbs p
+    {
+    	text-transform: uppercase;
+    	text-align: center;
+    	padding-top: 25px;
+    	padding-left: 450px;
+    	padding-right: 450px;
+    	padding-bottom: 25px;
+    	font-size: 18px;
+    	color: #fff;
+    }
+    .slogan p span 
+    {
+		font-size: 40px;
+    	color: #EA7319;
+    }
+   
+    .dom
+    {
+    	
+    	width: 700px;
+    	height: 500px;
+    	display: block;
+		margin: auto;
+		margin-top: 70px;
+		border: 3px solid #fcac45;
+
+	 opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+
+   
+
+	}
+	.dom:hover
+	{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+	}
+#change-text
+{
+	padding-top: 70px;
+}
+.museum
+{
+		width: 100%
+		height: 1000px;
+		padding-top: 500px;
+		padding-bottom: 200px;
+		background-color: #000;
+		border-bottom: 3px solid #fcac45;
+}
+.museum .museum-logo p
+{
+		margin-top: -410px;
+    	text-transform: uppercase;
+    	text-align: center;
+    	font-weight: bold;
+		font-size: 40px;
+		color: #fff; 
+}
+.museum .museum-werbs
+{
+		text-transform: uppercase;
+    	text-align: center;
+    	padding-top: 25px;
+    	padding-left: 450px;
+    	padding-right: 450px;
+    	padding-bottom: 25px;
+    	font-size: 18px;
+    	color: #fff;
+}
+ .museum_photo
+{
+		width: 700px;
+		height: 500px;
+    	display: block;
+		margin: auto;
+		margin-top: 70px;
+		border: 3px solid #fcac45;
+
+	 opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+
+}
+ .museum_photo:hover
+	{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+	}
+	.museum-werbs p
+	{
+		padding-top: 50px;
+	}
+	.garry
+	{
+		width: 100%
+		height: 1000px;
+		padding-top: 500px;
+		padding-bottom: 200px;
+		background-color: #000;
+		border-bottom: 3px solid #fcac45;
+	}
+	.garry .garry-logo p
+	{
+		margin-top: -410px;
+    	text-transform: uppercase;
+    	text-align: center;
+    	font-weight: bold;
+		font-size: 40px;
+		color: #fff; 
+	}
+	.garry .garry-werbs 
+	{
+		text-transform: uppercase;
+    	text-align: center;
+    	padding-top: 25px;
+    	padding-left: 450px;
+    	padding-right: 450px;
+    	padding-bottom: 25px;
+    	font-size: 18px;
+    	color: #fff;
+	}
+.garry_photo
+{
+		width: 700px;
+		height: 500px;
+    	display: block;
+		margin: auto;
+		margin-top: 70px;
+		border: 3px solid #fcac45;
+
+	 opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.garry_photo:hover
+{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.garry-werbs p
+{
+	padding-top: 40px;
+}
+.riscal
+{
+		width: 100%
+		height: 1000px;
+		padding-top: 500px;
+		padding-bottom: 200px;
+		background-color: #000;
+		border-bottom: 3px solid #fcac45;
+}
+.riscal .riscal-logo p
+{
+		margin-top: -410px;
+    	text-transform: uppercase;
+    	text-align: center;
+    	font-weight: bold;
+		font-size: 40px;
+		color: #fff;
+}
+.riscal .riscal-werbs
+{
+		text-transform: uppercase;
+    	text-align: center;
+    	padding-top: 25px;
+    	padding-left: 450px;
+    	padding-right: 450px;
+    	padding-bottom: 25px;
+    	font-size: 18px;
+    	color: #fff;
+}
+.riscal_photo
+{
+		width: 700px;
+		height: 500px;
+    	display: block;
+		margin: auto;
+		margin-top: 70px;
+		border: 3px solid #fcac45;
+
+	 opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.riscal_photo:hover
+{
+	-webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.riscal-werbs p
+{
+	padding-top: 35px;
+}
+.about-us
+{
+		width: 100%
+		height: auto;
+		
+		padding-bottom: 600px;
+		background-color: #000;
+		border-bottom: 3px solid #fcac45;
+}
+.about-us .logo_2
+{
+		display: block;
+		margin: auto;
+		padding-top: 40px;
+}
+.about-us #mail_1
+{
+
+//	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 30px;
+	text-align: center;
+	color: #fcac45;
+}
+.about-us #mail_2
+{
+//	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	color: #fcac45;
+}
+.about-us #mail_3
+{
+//	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	color: #fcac45;
+}
+
